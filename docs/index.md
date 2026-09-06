@@ -1,8 +1,8 @@
-# Home
+# Գլխավոր
 
-## Hello, new student!
+## Բարի գալուստ իմ կայք
 
-![](./images/week01/assignment-photo.jpg)
+![](images/231.jpg)
 
 ## Welcome to your new Fab Academy site
 
