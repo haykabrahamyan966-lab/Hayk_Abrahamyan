@@ -1,8 +1,8 @@
 # Replace the text below to customize your site
-site_name: Your name - Fab Academy
-site_description: Fab Academy documentation site for Your Name
-site_author: Your name
-copyright: Copyright 2022 Your name - Creative Commons Attribution Non Commercial
+site_name: Hayk Abrahamyan-Fab Academy
+site_description: Fab Academy documentation site for Hayk Abrahamyan
+site_author: Hayk Abrahamyan
+copyright: Copyright 2022 Hayk Abrahamyan - Creative Commons Attribution Non Commercial
 
 site_url: http://fibasile.fabcloud.io/fabacademy-student-template/
 
@@ -23,8 +23,8 @@ theme:
   name: material
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: deep
-    accent: indigo
+    primary: black
+    accent: yellow
   font:
     # See available fonts at https://fonts.google.com/
     text: Ubuntu
