@@ -51,3 +51,13 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+
+nav:
+  - Home: index.md
+  - About:
+      - Bio: about/index.md
+      - Student Agreement: about/agreement.md
+  - Assignments:
+      - Week 01: assignments/week01.md
+      - Week 02: assignments/week02.md
+  - Final Project: projects/final-project.md
