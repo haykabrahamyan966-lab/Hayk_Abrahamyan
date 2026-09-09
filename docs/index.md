@@ -1,7 +1,7 @@
 # Բարի գալուստ իմ էջ
  Ես Հայկն եմ։
 
-![](images/231.jpg)
+![](images/f5b8a759cdd53b_5b8a759cdd57a-_x456-quality(80).jpg)
 
 
 
