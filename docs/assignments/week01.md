@@ -16,8 +16,8 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
 * GitHub-ից իմ համակարգիչ քաշեցի `Hayk_Abrahamyan` ռեպոզիտորիան:
 * Պրոյեկտի պապկան բացեցի VS Code ծրագրով:
 <video width="100%" controls preload="metadata">
-  <source src="../R1.mp4">
-  Քո բրաուզերը չի աջակցում video թեգը։
+  <source src="../videos/R1.mp4" type="video/mp4">
+  Քո բրաուզերը չի աջակցում video թեգը:
 </video>
 * Git Bash տերմինալում կարգավորեցի իմ օգտանունն ու էլ․ հասցեն.
   * `git config --global user.name "Hayk Abrahamyan"`
