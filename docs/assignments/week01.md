@@ -20,13 +20,12 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
   * `git config --global user.email "your-email@example.com"`
   <figure markdown>
 
-  ![](․․/images/2.jpg)
+![](../images/2.jpg)
 
-  <figcaption style="font-size: 0.85em; color: #1e88e5; text-align: center;">
-    Ահա GitHub-ի վերջնական տեսքը ներբեռնված ֆայլերով։
-  </figcaption>
+<figcaption style="font-size: 0.85em; color: #1e88e5; text-align: center;">
+  Ահա GitHub-ի վերջնական տեսքը ներբեռնված ֆայլերով:
+</figcaption>
 </figure>
-
 ### Քայլ 2․ Deployment-ի խնդրի լուծումը (GitHub Actions)
 * Առաջին push-ից հետո GitHub Actions-ի build-ը ձախողվեց:
 * **Պատճառը.** GitHub Actions-ին ֆայլեր գրելու թույլտվություն (write permissions) տրված չէր:
