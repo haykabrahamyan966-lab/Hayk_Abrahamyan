@@ -15,17 +15,14 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
 ### Քայլ 1․ Ռեպոզիտորիայի կլոնավորում և local միջավայր
 * GitHub-ից իմ համակարգիչ քաշեցի `Hayk_Abrahamyan` ռեպոզիտորիան:
 * Պրոյեկտի պապկան բացեցի VS Code ծրագրով:
+<video width="100%" controls preload="metadata">
+  <source src="../R1.mp4">
+  Քո բրաուզերը չի աջակցում video թեգը։
+</video>
 * Git Bash տերմինալում կարգավորեցի իմ օգտանունն ու էլ․ հասցեն.
   * `git config --global user.name "Hayk Abrahamyan"`
   * `git config --global user.email "your-email@example.com"`
-  
-<figure markdown>
-
-![](../images/3.jpg)
-
-<figcaption style="font-size: 0.85em; color: #1e88e5; text-align: center;">
-  Այս տեսքն է ստանում VS Code-ի ձախակողմյան պատուհանը ֆայլերի ներբեռնումից հետո:
-</figcaption><figure markdown>
+  <figure markdown>
 
 ![](../images/2.jpg)
 
@@ -33,6 +30,14 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
   Ահա GitHub-ի վերջնական տեսքը ներբեռնված ֆայլերով:
 </figcaption>
 </figure>
+
+<figure markdown>
+
+![](../images/3.jpg)
+
+<figcaption style="font-size: 0.85em; color: #1e88e5; text-align: center;">
+  Ահա GitHub-ի վերջնական տեսքը ներբեռնված ֆայլերով:
+</figcaption>
 </figure>
 ### Քայլ 2․ Deployment-ի խնդրի լուծումը (GitHub Actions)
 * Առաջին push-ից հետո GitHub Actions-ի build-ը ձախողվեց:
