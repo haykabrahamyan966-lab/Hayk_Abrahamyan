@@ -15,7 +15,7 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
 ### Քայլ 1․ Ռեպոզիտորիայի կլոնավորում և local միջավայր
 * GitHub-ից իմ համակարգիչ քաշեցի `Hayk_Abrahamyan` ռեպոզիտորիան:
 * Պրոյեկտի պապկան բացեցի VS Code ծրագրով:
-<video src="../images/R1.mp4" controls width="100%"></video>
+<video src="../images/r21.gif" controls width="100%"></video>
 * Git Bash տերմինալում կարգավորեցի իմ օգտանունն ու էլ․ հասցեն.
   * `git config --global user.name "Hayk Abrahamyan"`
   * `git config --global user.email "your-email@example.com"`
