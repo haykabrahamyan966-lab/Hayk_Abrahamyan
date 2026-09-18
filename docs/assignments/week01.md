@@ -19,7 +19,9 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
   * `git config --global user.name "Hayk Abrahamyan"`
   * `git config --global user.email "your-email@example.com"`
   <figure markdown>
-  ![Նկարի նկարագրություն](images/2.jpg)
+
+  ![](․․/images/2.jpg)
+
   <figcaption style="font-size: 0.85em; color: #1e88e5; text-align: center;">
     Ահա GitHub-ի վերջնական տեսքը ներբեռնված ֆայլերով։
   </figcaption>
