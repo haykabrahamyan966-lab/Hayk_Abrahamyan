@@ -22,23 +22,15 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
 * Git Bash տերմինալում կարգավորեցի իմ օգտանունն ու էլ․ հասցեն.
   * `git config --global user.name "Hayk Abrahamyan"`
   * `git config --global user.email "your-email@example.com"`
- <figure markdown>
-
-    ![](../images/2.jpg)
-
-<figcaption style="font-size: 0.85em; color: #1e88e5; text-align: center;">
+ ![GitHub-ի տեսքը](../images/2.jpg)
+<p style="font-size: 0.85em; color: #1e88e5; text-align: center; margin-top: 5px;">
   Ահա GitHub-ի վերջնական տեսքը ներբեռնված ֆայլերով:
-</figcaption>
-</figure>
+</p>
 
-<figure markdown>
-
-    ![](../images/3.jpg)
-
-<figcaption style="font-size: 0.85em; color: #1e88e5; text-align: center;">
+![VS Code-ի տեսքը](../images/3.jpg)
+<p style="font-size: 0.85em; color: #1e88e5; text-align: center; margin-top: 5px;">
   Ահա VS Code-ի ձախակողմյան պատուհանի վերջնական տեսքը ներբեռնված ֆայլերով:
-</figcaption>
-</figure>
+</p>
 ### Քայլ 2․ Deployment-ի խնդրի լուծումը (GitHub Actions)
 * Առաջին push-ից հետո GitHub Actions-ի build-ը ձախողվեց:
 * **Պատճառը.** GitHub Actions-ին ֆայլեր գրելու թույլտվություն (write permissions) տրված չէր:
