@@ -16,7 +16,7 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
 * GitHub-ից իմ համակարգիչ քաշեցի `Hayk_Abrahamyan` ռեպոզիտորիան:
 * Պրոյեկտի պապկան բացեցի VS Code ծրագրով:
 <video width="100%" controls preload="metadata">
-  <source src="../videos/R1.mp4" type="video/mp4">
+  <source src="../images/R1.mp4" type="video/mp4">
   Քո բրաուզերը չի աջակցում video թեգը:
 </video>
 * Git Bash տերմինալում կարգավորեցի իմ օգտանունն ու էլ․ հասցեն.
@@ -24,7 +24,7 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
   * `git config --global user.email "your-email@example.com"`
  <figure markdown>
 
-![](../images/2.jpg)
+    ![](../images/2.jpg)
 
 <figcaption style="font-size: 0.85em; color: #1e88e5; text-align: center;">
   Ահա GitHub-ի վերջնական տեսքը ներբեռնված ֆայլերով:
@@ -33,7 +33,7 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
 
 <figure markdown>
 
-![](../images/3.jpg)
+    ![](../images/3.jpg)
 
 <figcaption style="font-size: 0.85em; color: #1e88e5; text-align: center;">
   Ահա VS Code-ի ձախակողմյան պատուհանի վերջնական տեսքը ներբեռնված ֆայլերով:
