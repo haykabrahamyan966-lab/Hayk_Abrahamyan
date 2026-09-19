@@ -54,6 +54,10 @@ VS Code-ում բացեցի `mkdocs.yml` ֆայլը և ավելացրեցի `nav
 * Նկարները տեղադրեցի `docs/images/` պապկայում և կիրառեցի ճիշտ Markdown սինտաքս. `![Նկար](images/231.jpg)`
 * Հղումները տեղադրեցի ճիշտ փակագծերով. `[Տեքստ](URL)`
 
+![VS Code-ի տեսքը](../images/6.jpg)
+<p style="font-size: 0.85em; color: #1e88e5; text-align: center; margin-top: 5px;">
+  Ահա docs պապկայի index.md և images պատուհանները՝ բացված VS Code-ում:
+</p>
 ### Քայլ 5․ Փոփոխությունների հրապարակում (Git Workflow)
 VS Code-ում ֆայլերը պահպանելուց հետո (`Ctrl + S`), տերմինալում հերթով կատարում եմ 3 հրամանները.
 1. `git add .`
