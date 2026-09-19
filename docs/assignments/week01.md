@@ -13,7 +13,16 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
 ## 2. Կայքի ստեղծման և կարգավորման քայլաշար
 
 ### Քայլ 1․ Ռեպոզիտորիայի կլոնավորում և local միջավայր
-* GitHub-ից իմ համակարգիչ քաշեցի `Hayk_Abrahamyan` ռեպոզիտորիան:
+* GitHub-ից իմ համակարգիչ քաշեցի `Hayk_Abrahamyan` ռեպոզիտորիան,որը ստեղծել եմ GiyHub-ում:
+![VS Code-ի տեսքը](../images/4.jpg)
+<p style="font-size: 0.85em; color: #1e88e5; text-align: center; margin-top: 5px;">
+  Այս տեսքն ունի ռեպոզիտորիա ստեղծելու պատուհանը:
+</p>
+
+![VS Code-ի տեսքը](../images/3.jpg)
+<p style="font-size: 0.85em; color: #1e88e5; text-align: center; margin-top: 5px;">
+  Սա մեր պատրաստի ռեպոզիտորիան է:
+</p>
 * Պրոյեկտի պապկան բացեցի VS Code ծրագրով:
 <video src="../images/r21.gif" controls width="100%"></video>
 * Git Bash տերմինալում կարգավորեցի իմ օգտանունն ու էլ․ հասցեն.
