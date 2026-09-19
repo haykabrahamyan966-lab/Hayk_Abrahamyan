@@ -19,7 +19,7 @@ Fab Academy-ն պաշտոնապես մեկնարկեց սեպտեմբերի 5-ի
   Այս տեսքն ունի ռեպոզիտորիա ստեղծելու պատուհանը:
 </p>
 
-![VS Code-ի տեսքը](../images/3.jpg)
+![VS Code-ի տեսքը](../images/5.jpg)
 <p style="font-size: 0.85em; color: #1e88e5; text-align: center; margin-top: 5px;">
   Սա մեր պատրաստի ռեպոզիտորիան է:
 </p>
