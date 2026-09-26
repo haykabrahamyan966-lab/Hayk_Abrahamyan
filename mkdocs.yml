@@ -1,56 +1,51 @@
-# Replace the text below to customize your site
-site_name: Hayk Abrahamyan-Fab Academy
-site_description: Fab Academy documentation site for Hayk Abrahamyan
-site_author: Hayk Abrahamyan
-copyright: Copyright 2022 Hayk Abrahamyan - Creative Commons Attribution Non Commercial
-
-site_url: http://fibasile.fabcloud.io/fabacademy-student-template/
-
-extra:
-  # Set your own social media below (or remove)
-  social:
-    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/fabacademany
-    - icon: fontawesome/brands/facebook
-      link: https://facebook.com/fabacademany
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/fabacademany
-    - icon: fontawesome/brands/linkedin
-      link: "https://linkedin.com/in/academany"
+site_name: Ֆաբ Դպրոց 2026 - Հայկ Աբրահամյան
+site_url: https://hayk-abrahamyan.github.io/fablab26/
 
 theme:
   name: material
+  language: hy
   palette:
-    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: black
-    accent: yellow
-  font:
-    # See available fonts at https://fonts.google.com/
-    text: Ubuntu
-    code: Ubuntu Mono
-  icon:
-    logo: material/school
-  favicon: images/favicon.svg
+    # Light Mode (Լուսավոր թեմա)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark Mode (Մութ թեմա)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
   features:
-    - navigation.tabs
     - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 plugins:
   - search
-  - git-revision-date-localized:
-      fallback_to_build_date: true
-      # Read more: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/#enabled
-      enabled: !ENV [ENABLED_GIT_REVISION_DATE, False]
 
 markdown_extensions:
-  - extra
-  - smarty
+  - attr_list
+  - md_in_html
   - admonition
-  - codehilite:
-      guess_lang: false
-  - toc:
-      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
 
 nav:
   - Home: index.md
