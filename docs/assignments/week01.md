@@ -128,4 +128,4 @@ VS Code-ում ֆայլերը պահպանելուց հետո (`Ctrl + S`), տե
 * **Output Devices:** 
   * UV-C LED (2-4 հատ)
   * Status Indicator RGB LED (կարմիր՝ ախտահանում է, կանաչ՝ պատրաստ է)
-* **Power Supply:** Rechargeable Li-Ion battery կամ Power Bank (USB):
+* **Power Supply:** Rechargeable Li-Ion battery կամ Power Banjk (USB):
