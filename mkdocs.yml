@@ -52,7 +52,5 @@ nav:
   - About:
       - Bio: about/index.md
       - Student Agreement: about/agreement.md
-  - Assignments:
-      - Week 01: assignments/week01.md
-      - Week 02: assignments/week02.md
+  - Assignments: assignments/index.md
   - Final Project: projects/final-project.md
