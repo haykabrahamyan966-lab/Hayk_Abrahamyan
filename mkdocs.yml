@@ -3,7 +3,7 @@ site_url: https://haykabrahamyan966-lab.github.io/Hayk_Abrahamyan/
 
 theme:
   name: material
-  language: hy
+  language: en
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
