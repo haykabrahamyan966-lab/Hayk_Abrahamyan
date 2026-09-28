@@ -1,41 +1,27 @@
-site_name: Ֆաբ Դպրոց 2026 - Հայկ Աբրահամյան
-site_url: https://hayk-abrahamyan.github.io/fablab26/
+site_name: Fab Academy 2026 - Hayk Abrahamyan
+site_url: https://haykabrahamyan966-lab.github.io/Hayk_Abrahamyan/
 
 theme:
   name: material
   language: hy
   palette:
-    # Light Mode (Լուսավոր թեմա)
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    # Dark Mode (Մութ թեմա)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+      primary: black
+      accent: grey
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: grey
 
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    - navigation.sections
     - navigation.top
-    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
-
-  font:
-    text: Roboto
-    code: Roboto Mono
 
 plugins:
   - search
