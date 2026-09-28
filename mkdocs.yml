@@ -1,4 +1,4 @@
-site_name: Fab Academy 2026 - Hayk Abrahamyan
+site_name: Fab Դպրոց 2026 - Hayk Abrahamyan
 site_url: https://haykabrahamyan966-lab.github.io/Hayk_Abrahamyan/
 
 theme:
@@ -37,9 +37,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
-  - Home: index.md
-  - About:
-      - Bio: about/index.md
-      - Student Agreement: about/agreement.md
-  - Assignments: assignments/index.md
-  - Final Project: projects/final-project.md
+  - Գլխավոր: index.md
+  - Իմ մասին: about/index.md
+  - Առաջադրանքներ: assignments/index.md
+  - Ավարտական նախագիծ: projects/final-project.md
