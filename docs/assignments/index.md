@@ -4,96 +4,125 @@ Select a module below to explore the detailed documentation, code, and CAD model
 
 ---
 
-<div class="grid cards" markdown>
+<style>
+  .assignments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
 
--   :fontawesome-solid-screwdriver-wrench:{ .lg .middle } **Week 01**
+  .card-item {
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
 
-    ---
+  .card-item:hover {
+    transform: translateY(-4px);
+    border-color: #3f3f46;
+  }
 
-    **Principles, Practices & Web Setup**
-    Git, VS Code, MkDocs-Material, GitHub Pages setup.
+  .card-header {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
 
-    [:octicons-arrow-right-24: Open Week 01](week01.md)
+  .card-subtitle {
+    color: #e4e4e7;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
 
--   :fontawesome-solid-cube:{ .lg .middle } **Week 02**
+  .card-desc {
+    color: #a1a1aa;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+  }
 
-    ---
+  .card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ffffff !important;
+    background: #27272a;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    width: fit-content;
+    transition: background 0.2s ease;
+  }
 
-    **Computer-Aided Design (CAD)**
-    2D & 3D Modeling (Fusion 360, Vector Graphics).
+  .card-link:hover {
+    background: #3f3f46;
+  }
+</style>
 
-    [:octicons-arrow-right-24: Open Week 02](week02.md)
+<div class="assignments-grid">
 
--   :fontawesome-solid-scissors:{ .lg .middle } **Week 03**
+  <div class="card-item">
+    <div>
+      <div class="card-header">🛠️ Week 01</div>
+      <div class="card-subtitle">Principles, Practices & Web Setup</div>
+      <div class="card-desc">Git, VS Code, MkDocs-Material, GitHub Pages setup and documentation workflow.</div>
+    </div>
+    <a href="../week01/" class="card-link">Open Week 01 →</a>
+  </div>
 
-    ---
+  <div class="card-item">
+    <div>
+      <div class="card-header">🧊 Week 02</div>
+      <div class="card-subtitle">Computer-Aided Design (CAD)</div>
+      <div class="card-desc">2D & 3D Modeling with Fusion 360, raster and vector graphics workflows.</div>
+    </div>
+    <a href="../week02/" class="card-link">Open Week 02 →</a>
+  </div>
 
-    **Computer-Controlled Cutting**
-    Laser Cutting & Vinyl Cutting Projects.
+  <div class="card-item">
+    <div>
+      <div class="card-header">✂️ Week 03</div>
+      <div class="card-subtitle">Computer-Controlled Cutting</div>
+      <div class="card-desc">Parametric press-fit construction kits using laser and vinyl cutters.</div>
+    </div>
+    <a href="../week03/" class="card-link">Open Week 03 →</a>
+  </div>
 
-    [:octicons-arrow-right-24: Open Week 03](week03.md)
+  <div class="card-item">
+    <div>
+      <div class="card-header">🔌 Week 04</div>
+      <div class="card-subtitle">Electronics Production</div>
+      <div class="card-desc">PCB milling, surface-mount soldering (SMD), and testing techniques.</div>
+    </div>
+    <a href="../week04/" class="card-link">Open Week 04 →</a>
+  </div>
 
--   :fontawesome-solid-microchip:{ .lg .middle } **Week 04**
+  <div class="card-item">
+    <div>
+      <div class="card-header">🁢 Week 05</div>
+      <div class="card-subtitle">3D Scanning & Printing</div>
+      <div class="card-desc">Additive manufacturing capabilities, design rules, and 3D scanning.</div>
+    </div>
+    <a href="../week05/" class="card-link">Open Week 05 →</a>
+  </div>
 
-    ---
-
-    **Electronics Production**
-    PCB milling & Surface-mount soldering (SMD).
-
-    [:octicons-arrow-right-24: Open Week 04](week04.md)
-
--   :fontawesome-solid-print:{ .lg .middle } **Week 05**
-
-    ---
-
-    **3D Scanning & Printing**
-    Additive manufacturing & 3D Scanning.
-
-    [:octicons-arrow-right-24: Open Week 05](week05.md)
-
--   :fontawesome-solid-bolt:{ .lg .middle } **Week 06**
-
-    ---
-
-    **Embedded Programming**
-    Microcontroller setup & C/C++ Firmware.
-
-    [:octicons-arrow-right-24: Open Week 06](week06.md)
-
--   :fontawesome-solid-gears:{ .lg .middle } **Week 07**
-
-    ---
-
-    **Computer-Controlled Machining**
-    Large-format CNC milling (ShopBot) & joinery.
-
-    [:octicons-arrow-right-24: Open Week 07](week07.md)
-
--   :fontawesome-solid-wave-square:{ .lg .middle } **Week 08**
-
-    ---
-
-    **Electronics Design**
-    Schematic capture, KiCAD PCB layout & routing.
-
-    [:octicons-arrow-right-24: Open Week 08](week08.md)
-
--   :fontawesome-solid-eye:{ .lg .middle } **Week 09**
-
-    ---
-
-    **Input Devices**
-    Sensors (IR, Ultrasonic, Touch) integration.
-
-    [:octicons-arrow-right-24: Open Week 09](week09.md)
-
--   :fontawesome-solid-lightbulb:{ .lg .middle } **Week 10**
-
-    ---
-
-    **Output Devices**
-    Actuators, motor drivers, LED arrays & displays.
-
-    [:octicons-arrow-right-24: Open Week 10](week10.md)
+  <div class="card-item">
+    <div>
+      <div class="card-header">⚡ Week 06</div>
+      <div class="card-subtitle">Embedded Programming</div>
+      <div class="card-desc">Microcontroller architecture, C/C++ firmware, and hardware programming.</div>
+    </div>
+    <a href="../week06/" class="card-link">Open Week 06 →</a>
+  </div>
 
 </div>
